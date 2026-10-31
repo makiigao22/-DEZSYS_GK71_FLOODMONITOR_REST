@@ -1,0 +1,2 @@
+package com.example.floodmonitor.model;
+public record Statistics(double minWaterLevel,double maxWaterLevel,double averageWaterLevel,double averageFlowRate,double totalRainfall,long measurementCount,long warningCount,long criticalCount) {}
